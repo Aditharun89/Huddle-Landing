@@ -91,3 +91,39 @@ nav button{
 .heroContent p{
     margin-bottom: 2rem;
 }
+#info{
+    padding: 4rem;
+    width: 90%;
+    margin: 0 auto; 
+    padding-bottom: 6rem;
+}
+
+#info > div{
+    margin: 2rem 0;
+    display: flex;
+    border: 2px solid rgb(225, 224, 224);
+    border-radius: 10px;
+    padding-left: 4rem;
+    padding-right: 2rem;
+}
+
+#info img{
+    height:70%;
+    width: 50%;
+}
+
+.infoContent{
+    align-self: center;
+    flex: 4;
+}
+
+.infoImageContainer{
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoImageContainer:nth-of-type(1){
+    justify-content: flex-start;
+}
