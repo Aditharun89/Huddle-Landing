@@ -127,3 +127,25 @@ nav button{
 .infoImageContainer:nth-of-type(1){
     justify-content: flex-start;
 }
+#absoluteSection{
+    position: relative;
+}
+
+#absoluteSection div{
+    border: 2px solid rgb(225, 224, 224);
+    background-color: white;
+    text-align: center;
+    padding: 2rem 3rem;
+    width: 40%;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#absoluteSection button{
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
